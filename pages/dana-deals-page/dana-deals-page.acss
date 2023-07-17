@@ -1,0 +1,114 @@
+.test-page{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ant-switch-handle{
+  transition: all .2s;
+}
+.image-container{
+  width: 100%;
+}
+.banner-image{
+  width: 100%;
+}
+.popular-merchant-title{
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-merchant-container{
+  width: 90%;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30rpx;
+}
+.merchant-list-container{
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  gap: 20rpx;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.view-all-title{
+  color: rgb(22, 47, 211);
+}
+
+.all-the-best-deals-container{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  gap: 30rpx;
+  align-items: center;
+  padding: 20rpx;
+}
+
+.best-deals-title-image-container{
+  width: 70rpx;
+  height: 70rpx;
+  border: 1px solid #CDCDCD ;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+  background-color: rgb(148, 186, 224);
+}
+.best-deals-title-image{
+  transform: rotate(90deg);
+  width: 50rpx;
+  height: 50rpx;
+  position:relative;
+  top: 13rpx;
+  left: 25rpx;
+  flex-shrink: 0;
+}
+
+.best-deals-title-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.best-deals-filter-container{
+  width: 90%;
+  height: auto;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20rpx;
+  align-items: flex-start;
+}
+.filter-list{
+  position:relative;
+  width: auto;
+  height: 50rpx;
+  border-radius: 40rpx;
+  display: flex;
+  padding: 10rpx;
+  align-items: center;
+  font-size: 25rpx;
+  white-space: nowrap;
+  text-align: justify;
+  border: 1px solid #CDCDCD ;
+
+}
+.filter-text{
+  font-size: 25rpx;
+  white-space: nowrap;
+}
+.selected-filter{
+  background-color: rgb(90, 122, 221);
+  color: white;
+}
+.button-try-ant{
+  background: black;
+}
+

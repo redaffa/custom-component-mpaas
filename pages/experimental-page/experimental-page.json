@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "button-bni" : "/components/button-bni/button-bni",
+    "button-ant": "antd-mini/es/Button/index",
+    "pop-up-bni": "/components/pop-up-bni/pop-up-bni",
+    "pop-up-bni-ant": "/components/pop-up-bni-ant/pop-up-bni-ant",
+    "pop-up-ant": "antd-mini/es/Popup/index"
+  }
+}

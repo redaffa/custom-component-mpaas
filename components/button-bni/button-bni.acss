@@ -1,0 +1,52 @@
+.button-bni{
+  position: absolute;
+  width:  auto;
+  height: auto;
+  box-shadow: inset 0 0 0 1px orange;
+  border: none;
+  position: absolute;
+  padding: 10rpx;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+}
+
+
+.bni-button-medium{
+  width: 150rpx ;
+  height: 75rpx;
+  padding: 10px;
+  font-size: 25rpx;
+}
+
+.bni-button-large{
+  width: 200rpx ;
+  height: 100rpx;
+  padding: 12px;
+  font-size: 30rpx;
+}
+
+.bni-button-xlarge{
+  min-width: 300rpx ;
+  height: 150rpx;
+  padding: 17px;
+  font-size: 40rpx;
+}
+
+.bni-button-disabled{
+  opacity: .6;
+}
+
+.bni-button-default{
+  box-shadow: inset 0 0 0 1px orange;
+  color: orange;
+}
+
+.bni-button-primary{
+  background-color: orange;
+  color: white;
+  border: orange;
+}
+

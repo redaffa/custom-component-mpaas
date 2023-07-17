@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "merchant-card" : "/components/merchant-card/merchant-card",
+    "button-ant": "antd-mini/es/Button/index",
+    "icon-ant": "antd-mini/es/Icon/index",
+    "button-bni":"/components/button-bni/button-bni",
+    "form-input-bni":"/components/form-input-bni/form-input-bni",
+    "switch-ant": "antd-mini/es/Switch/index"
+  },
+  "defaultTitle": "DANA Deals"
+}

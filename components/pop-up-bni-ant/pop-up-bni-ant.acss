@@ -1,0 +1,5 @@
+view.ant-popup-content{
+  background: #FF6600;
+  display: flex;
+  justify-content: center;
+}

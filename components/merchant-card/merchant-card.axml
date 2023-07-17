@@ -1,0 +1,11 @@
+<view class="container" onTap="onTap">
+  <view class="logo-merchant-container">
+    <image class="merchant-logo" src="/images/Alfamart_logo.svg" />
+  </view>
+  <text>Alfamart</text>
+  <view class="merchant-voucher-container align"  >
+    <image class="merchant-voucher-icon" src="/images/discount-voucher-icon.svg" />
+    <text style="font-size:25rpx;white-space:nowrap;">2 voucher</text>
+    <slot></slot>
+  </view>
+</view>

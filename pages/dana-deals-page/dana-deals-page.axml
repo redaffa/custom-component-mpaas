@@ -1,0 +1,47 @@
+<view class="test-page">
+  <view class="image-container">
+    <image class="banner-image" src="https://asset.tix.id/microsite_v2/cd26ea7c-1196-436b-a3f1-2fa523bb588a.jpeg" />
+  </view>
+  <view class="popular-merchant-container">
+    <view class="popular-merchant-title">
+      <text>Popular Merchant</text>
+      <text class="view-all-title">VIEW ALL</text>
+    </view>
+    <view class="merchant-list-container">
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+      <merchant-card onTap="ontestOnTap"></merchant-card>
+    </view>
+  </view>
+  <view class="all-the-best-deals-container">
+    <view class="best-deals-title-image-container">
+      <image class="best-deals-title-image" src="/images/ticket-fill.svg" />
+      <image class="best-deals-title-image" src="/images/ticket-fill.svg" />
+      <image class="best-deals-title-image" src="/images/ticket-fill.svg" />
+    </view>
+    <view class="best-deals-title-container">
+      <text>All The Best Deals</text>
+      <text style="font-size:20rpx;">Pick as many as you want</text>
+    </view>
+  </view>
+  <view class="best-deals-filter-container">
+    <view
+      a:for="{{ filterListArray }}"
+      a:for-item="filter"
+      class="filter-list {{selectedFilter === filter.name ? 'selected-filter' : ''}}"
+      onTap="changeFilter"
+      data-filter="{{filter.name}}"
+    >
+      <icon-ant
+        style="font-size: 35rpx;margin-right:{{ filter.icon? '10rpx' : ''}}"
+        type="{{ filter.icon ? filter.icon : ''}}"
+      />
+      <text class="filter-text">{{filter.name}}</text>
+    </view>
+  </view>
+  <button-bni  ></button-bni>
+</view>

@@ -1,0 +1,15 @@
+<pop-up-ant 
+visible={{visible}} 
+height={{height}} 
+onClose="{{onClose ? 'onClose' : ''}}"
+position={{position}}
+showMask={{showMask}}
+style={{style}}
+width={{width}}
+zIndex={{zIndex}}
+duration={{duration}}
+animationType={{animationType}}
+animation={{animation}}
+
+
+><slot/></pop-up-ant>

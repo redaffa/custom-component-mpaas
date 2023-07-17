@@ -1,0 +1,14 @@
+.experimental-page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.pop-up-test{
+  width: 100%;
+  height: 100%;
+}
+.pop-up-content{
+  width: 90%;
+  height: 95%;
+  padding: 10rpx;
+}

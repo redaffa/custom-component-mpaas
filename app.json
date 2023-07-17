@@ -1,0 +1,11 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/experimental-page/experimental-page",
+    "pages/dana-deals-page/dana-deals-page"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "useDynamicPlugins": true
+}

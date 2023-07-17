@@ -1,0 +1,7 @@
+<view a:if="{{modalVisible}}"  class="container">
+  <view class="popupContainer {{popupAnimationClass}}">
+    <view class="popupContent">
+      <slot></slot>
+    </view>
+  </view>
+</view>

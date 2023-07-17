@@ -1,0 +1,9 @@
+<form-input-ant
+  label="{{label}}"
+  name="{{name}}"
+  placeholder="{{placeholder}}"
+  tooltip="{{tooltip}}"
+  allowClear={{allowClear}}
+  ref="{{ref}}"
+>
+</form-input-ant>

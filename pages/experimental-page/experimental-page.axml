@@ -1,0 +1,16 @@
+<view class="experimental-page">
+  <!-- <button-bni onTap="popUpHandler" item="test" size="large" >Open PopUp</button-bni> -->
+  <button-ant onTap="popUpHandler" mark:testmark="dadadada" data-user="itemDog">Button test</button-ant>
+</view>
+<pop-up-bni-ant
+  visible="{{popUpVisible}}"
+  onClose="handlePopUpClose"
+  width={{300}}
+  position="bottom"
+  height={{400}}
+>
+<view>
+  <text>X</text>
+
+</view>
+</pop-up-bni-ant>

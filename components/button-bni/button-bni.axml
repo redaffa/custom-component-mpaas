@@ -1,0 +1,9 @@
+<button
+  class="button-bni {{classStyle}}"
+  disabled={{disabled}}
+  onTap="{{onTap ? 'onTap' : ''}}"
+  form-type="{{formType}}"
+  data-props="{{item}}"
+>
+  <slot/>
+</button>
